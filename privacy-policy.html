@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — PetCare Journal</title>
+  <style>
+    :root {
+      --bg: #1a1008;
+      --surface: #231508;
+      --card: #2c1c0e;
+      --primary: #C17B5F;
+      --text: #F5EFE6;
+      --muted: #a89080;
+      --border: #3d2515;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    header .logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+    header .app-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    header .app-sub {
+      font-size: 13px;
+      color: var(--muted);
+    }
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex;
+      gap: 0;
+    }
+    nav a {
+      display: inline-block;
+      padding: 14px 20px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    nav a:hover { color: var(--text); }
+    nav a.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+    .page-title {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 6px;
+      letter-spacing: -0.5px;
+    }
+    .updated {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 40px;
+      font-style: italic;
+    }
+    .section {
+      margin-bottom: 36px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px 28px;
+    }
+    .section h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 12px;
+      letter-spacing: -0.2px;
+    }
+    .section p {
+      color: #c8b8a8;
+      font-size: 15px;
+      line-height: 1.75;
+      white-space: pre-line;
+    }
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+    }
+    footer a { color: var(--primary); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    @media (max-width: 600px) {
+      main { padding: 32px 16px 60px; }
+      .section { padding: 18px 20px; }
+      .page-title { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🐾</div>
+  <div>
+    <div class="app-name">PetCare Journal</div>
+    <div class="app-sub">Legal Documents</div>
+  </div>
+</header>
+
+<nav>
+  <a href="privacy-policy.html" class="active">Privacy Policy</a>
+  <a href="terms-of-service.html">Terms of Service</a>
+</nav>
+
+<main>
+  <h1 class="page-title">Privacy Policy</h1>
+  <p class="updated">Last updated: March 14, 2026</p>
+
+  <div class="section">
+    <h2>1. Introduction</h2>
+    <p>This Privacy Policy describes how PetCare Journal ("the App", "we", "us", or "our") handles information in connection with your use of the application. By downloading or using PetCare Journal, you agree to the practices described in this Privacy Policy.
+
+This App is operated by an independent individual developer, not a company or corporation.</p>
+  </div>
+
+  <div class="section">
+    <h2>2. No Data Collection — Our Core Principle</h2>
+    <p>PetCare Journal is designed with a strict no-data-collection architecture. We do not collect, receive, store, process, transmit, sell, share, or have access to any personal information or data that you enter into the App.
+
+All information you input — including pet names, health records, weight logs, event reminders, veterinarian contacts, photos, and documents — is stored exclusively in the local storage of your personal device (iPhone/iPad). This data never leaves your device and is never transmitted to any server, cloud service, or third party controlled by us.</p>
+  </div>
+
+  <div class="section">
+    <h2>3. Information We Do Not Collect</h2>
+    <p>We explicitly do not collect any of the following:
+
+— Your name, email address, phone number, or any other personal identifier
+— Pet health data, medical records, or veterinary information
+— Device location or GPS data
+— Device identifiers, advertising IDs, or IDFA
+— Usage statistics, analytics, or behavioral data
+— Crash reports or diagnostic data sent to our servers
+— Photos or files you store in the App
+— Any content you type or input into the App
+
+We have no backend server that receives user data. There is no database on our end that stores anything about you or your pets.</p>
+  </div>
+
+  <div class="section">
+    <h2>4. Local Data Storage</h2>
+    <p>All data you enter in PetCare Journal is stored locally on your device using Apple's standard storage APIs (AsyncStorage). You retain full ownership and control of this data at all times.
+
+If you enable iCloud Backup in your iOS Settings, your device data — including App data — may be included in your iCloud backup. This backup is managed entirely by Apple Inc. and is subject to Apple's own Privacy Policy (apple.com/privacy). We have no access to your iCloud backups.</p>
+  </div>
+
+  <div class="section">
+    <h2>5. Camera and Photo Library Access</h2>
+    <p>If you choose to add photos to the App, you will be prompted to grant access to your device camera or photo library. This permission is used solely to let you select or capture a photo that is then stored locally on your device within the App. We do not upload, transmit, or access your photos in any way. You may revoke this permission at any time in your iOS Settings.</p>
+  </div>
+
+  <div class="section">
+    <h2>6. Push Notifications</h2>
+    <p>PetCare Journal uses Apple's local notification system to send reminders about upcoming pet events (such as vet appointments or vaccinations). These notifications are generated and scheduled entirely on your device. No notification content is transmitted to us or any third party. You may disable notifications at any time in your iOS Settings.</p>
+  </div>
+
+  <div class="section">
+    <h2>7. Biometric Authentication</h2>
+    <p>If you enable Face ID or Touch ID to protect the App, biometric data is processed entirely by iOS and is never accessible to PetCare Journal or transmitted to any server. We only receive a boolean result (authenticated / not authenticated) from the iOS system.</p>
+  </div>
+
+  <div class="section">
+    <h2>8. In-App Purchases and Subscriptions</h2>
+    <p>PetCare Journal offers optional in-app purchases processed entirely through Apple's App Store payment system. We do not receive, process, or store any payment card information, billing details, or financial data. Your subscription status is verified locally on your device through Apple's StoreKit framework. For questions about billing, contact Apple Support directly.</p>
+  </div>
+
+  <div class="section">
+    <h2>9. Third-Party Services</h2>
+    <p>PetCare Journal does not integrate any third-party analytics, advertising, tracking, or data-collection SDKs. We do not use Google Analytics, Firebase, Facebook SDK, Amplitude, Mixpanel, Crashlytics, or any similar service that would transmit your data to third parties.</p>
+  </div>
+
+  <div class="section">
+    <h2>10. Children's Privacy</h2>
+    <p>PetCare Journal is not directed at children under the age of 13. Since we collect no personal information whatsoever, there is no risk of unauthorized collection of children's data. The App is rated 4+ and is suitable for all ages.</p>
+  </div>
+
+  <div class="section">
+    <h2>11. Your Rights and Data Control</h2>
+    <p>Because all data is stored exclusively on your device, you have complete and sole control over it:
+
+— Access: View all your data directly within the App at any time
+— Export: Use "Export My Data" in Settings to download a full JSON backup to your device
+— Delete: Use "Delete All My Data" in Settings to permanently and irreversibly remove all App data from your device
+— Uninstall: Deleting the App from your iPhone permanently removes all locally stored data
+
+We cannot access, retrieve, restore, or delete your data on your behalf because we never have access to it.</p>
+  </div>
+
+  <div class="section">
+    <h2>12. Data Security</h2>
+    <p>Since all data remains on your device, the security of your data depends on the security of your device. We recommend enabling a device passcode, Face ID, or Touch ID to protect your iPhone. The App also offers an optional in-app biometric lock for additional protection.</p>
+  </div>
+
+  <div class="section">
+    <h2>13. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in the App or applicable law. Any changes will be reflected in the "Last updated" date at the top of this document. The updated policy will be available within the App. Your continued use of the App after any changes constitutes your acceptance of the revised Privacy Policy.</p>
+  </div>
+
+  <div class="section">
+    <h2>14. Contact</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact the developer at:
+
+<a href="mailto:itteachers.dev@gmail.com" style="color:#C17B5F;">itteachers.dev@gmail.com</a>
+
+We will respond to all inquiries within a reasonable timeframe.</p>
+  </div>
+</main>
+
+<footer>
+  <p>© 2026 PetCare Journal. All rights reserved.</p>
+  <p style="margin-top:8px;">
+    <a href="privacy-policy.html">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="terms-of-service.html">Terms of Service</a> &nbsp;·&nbsp;
+    <a href="mailto:itteachers.dev@gmail.com">Contact</a>
+  </p>
+</footer>
+
+</body>
+</html>

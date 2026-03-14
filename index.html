@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetCare Journal — Legal</title>
+  <style>
+    :root {
+      --bg: #1a1008;
+      --surface: #231508;
+      --card: #2c1c0e;
+      --primary: #C17B5F;
+      --text: #F5EFE6;
+      --muted: #a89080;
+      --border: #3d2515;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+      text-align: center;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 18px;
+      background: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+    p { color: var(--muted); font-size: 15px; margin-bottom: 40px; }
+    .links { display: flex; flex-direction: column; gap: 14px; width: 100%; max-width: 320px; }
+    .links a {
+      display: block;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 24px;
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      transition: border-color 0.2s;
+    }
+    .links a:hover { border-color: var(--primary); color: var(--primary); }
+    .links a span { display: block; font-size: 13px; color: var(--muted); font-weight: 400; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <div class="logo">🐾</div>
+  <h1>PetCare Journal</h1>
+  <p>Legal documents for the PetCare Journal iOS app</p>
+  <div class="links">
+    <a href="privacy-policy.html">
+      Privacy Policy
+      <span>How we handle your data</span>
+    </a>
+    <a href="terms-of-service.html">
+      Terms of Service
+      <span>Rules and conditions of use</span>
+    </a>
+  </div>
+</body>
+</html>
